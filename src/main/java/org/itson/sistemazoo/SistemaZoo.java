@@ -5,6 +5,8 @@
 
 package org.itson.sistemazoo;
 
+import org.itson.implementacion.DesplegarSistema;
+
 /**
  *
  * @author JORGE
@@ -12,6 +14,6 @@ package org.itson.sistemazoo;
 public class SistemaZoo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       new DesplegarSistema().desplegarSistema();
     }
 }
